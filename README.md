@@ -2,7 +2,7 @@
 
 <h1> Introduction </h1>
 <p> Ce document reprend les informations nécessaires à l'utilisation du dispositif de monitoring de batteries 
-conçu à Kinshasa par l'ULB en collaboration avec la CAMESKIN dans le cadre du projet CODEPO 2021-2022. </p>
+conçu à Kinshasa par l'ULB en collaboration avec la <a href="https://www.cameskin.org/">CAMESKIN</a> dans le cadre du projet <a href="https://polytech.ulb.be/fr/international/cellule-de-cooperation-au-developpement">CODEPO</a> 2021-2022. </p>
 <p> Le dispositif a été développé de manière à être relativement simple d'utilisation à l'aide de 
 l'écran LCD et des 4 différents boutons présents juste en dessous. </p>
 
