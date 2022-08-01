@@ -12,11 +12,12 @@ Le dispositif permet de monitorer un pack de batterie relié à des panneaux sol
   <li> <b>2 capteurs de courant </b> <br>
     &#x2192; cela permet de mesurer d'une part le courant entrant dans l'ensemble du battery pack, et d'autre part le courant sortant des panneaux solaires. </li>
   <li> <b>6 capteurs de températures </b> <br>
-    &#x2192; cela permet de mesurer les températures de chacun des sous-packs de batteries (<i>Th1</i> à <i>Tht6</i>). </li>
+    &#x2192; cela permet de mesurer les températures de chacun des sous-packs de batteries (<i>Th1</i> à <i>Tht6</i>).
+  </li>
   <li> Une entrée d'alimentation <br>
-    &#x2192; cela permet d'alimenter le dispositif avec une tension d'entrée de maximum 50 volt et minimum 5 volt (<i>Vcc</i> et <i>Gnd</i>). </li>
-  <li> 
-  <li> Une antenne <br>
+    &#x2192; cela permet d'alimenter le dispositif avec une tension d'entrée de maximum 50 volt et minimum 5 volt (<i>Vcc</i> et <i>Gnd</i>). 
+  </li>
+  <li> <b>Une antenne</b> <br>
     &#x2192; cela permet d'envoyer des alertes en cas de dysfonctionnement des batteries ou des panneaux solaires. Lorsque le dispositif détecte le  
     problème, il envoie un message MQTT à un Broker Thingstream. Ce dernier envoie ensuite un mail aux personnes de référence <i>(voir la section   
     "Thingstream" pour savoir en quoi consiste le broker thingstream et comment définir les personnes de référence).</i> <br>
@@ -24,12 +25,12 @@ Le dispositif permet de monitorer un pack de batterie relié à des panneaux sol
     Celles-ci sont envoyées chaque jour à un Broker Thingstream qui les stocke en attendant que quelqu'un les récupère via les codes Python 
     <i>(voir la section "Codes Python")</i>.
   </li> 
-  <li> Un lecteur micro SD <br>
-    &#x2192; cela permet de récolter des données plus précises via le dispositif et de les enregistrer sur la carte micro SD. </li>
-  <li>
-    <li> Un écran LCD et 4 boutons <br>
-    &#x2192; cela permet de faciliter l'expérience utilisateur et de pouvoir visualiser les donées mesurées par le dispositif en temps réel. </li>
-  <li>
+  <li> <b>Un lecteur micro SD</b> <br>
+    &#x2192; cela permet de récolter des données plus précises via le dispositif et de les enregistrer sur la carte micro SD. 
+  </li>
+  <li> <b>Un écran LCD et 4 boutons</b> <br>
+    &#x2192; cela permet de faciliter l'expérience utilisateur et de pouvoir visualiser les donées mesurées par le dispositif en temps réel. 
+  </li>
 </ul>
   
 <p> Le dispositif a été développé de manière à être relativement simple d'utilisation à l'aide de 
