@@ -14,7 +14,9 @@ Le dispositif permet de monitorer un pack de batterie relié à des panneaux sol
     &#x2192; cela permet de mesurer les températures de chacun des sous-packs de batteries. </li>
 </ul>
 
-<img src="CablageDispositifPack.png" width="500">
+<p align="center">
+  <img src="CablageDispositifPack.png" width="400">
+</p>
   
   Ce document reprend les informations nécessaires à l'utilisation du dispositif de monitoring de batteries 
 conçu à Kinshasa par l'ULB en collaboration avec la <a href="https://www.cameskin.org/" target="_blank">CAMESKIN</a> dans le cadre du projet  2021-2022. </p>
