@@ -5,6 +5,7 @@
 
 <h1> Aperçu général </h1>
 Le dispositif permet de monitorer un pack de batterie relié à des panneaux solaires. Pour ce faire, il possède les caractéristiques suivantes :
+<img src="CablageDispositifPack.png" width="400" align="right">
 <ul>
   <li> <b>7 entrées de mesures de tensions</b>  <br>
     &#x2192; cela permet de monitorer jusqu'à 6 sous-packs de batteries en mesurant leurs tensions respectives + 1 entrée pour mesurer la tension aux bornes des panneaux solaires.  </li>
@@ -13,8 +14,6 @@ Le dispositif permet de monitorer un pack de batterie relié à des panneaux sol
   <li> <b>6 capteurs de températures </b> <br>
     &#x2192; cela permet de mesurer les températures de chacun des sous-packs de batteries. </li>
 </ul>
-
-<img src="CablageDispositifPack.png" width="400" align="right">
   
   Ce document reprend les informations nécessaires à l'utilisation du dispositif de monitoring de batteries 
 conçu à Kinshasa par l'ULB en collaboration avec la <a href="https://www.cameskin.org/" target="_blank">CAMESKIN</a> dans le cadre du projet  2021-2022. </p>
