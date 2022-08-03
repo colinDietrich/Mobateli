@@ -7,7 +7,7 @@
 <img src="CablageDispositifPackEntier.png" width="400" align="right">
 Le dispositif permet de monitorer un pack de batterie relié à des panneaux solaires. Pour ce faire, il possède les caractéristiques suivantes :
 <ul>
-  <li> <b style="color:rgb(255,0,0);">7 entrées de mesures de tensions</b>  <br>
+  <li> <p style="color:rgb(255,0,0);">7 entrées de mesures de tensions</p>  <br>
     &#x2192; cela permet de monitorer jusqu'à 6 sous-packs de batteries (<i>Bat1</i> à <i>Bat6</i>) en mesurant leurs tensions respectives + 1 entrée pour mesurer la tension aux bornes des panneaux solaires.  </li>
   <li> <b>2 capteurs de courant </b> <br>
     &#x2192; cela permet de mesurer d'une part le courant entrant dans l'ensemble du battery pack, et d'autre part le courant sortant des panneaux solaires. </li>
