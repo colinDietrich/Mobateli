@@ -1,12 +1,18 @@
 # Mobateli
 <h1> Introduction </h1>
-<p> Ce document présente le dispositif conçu à Kinshasa par des étudiant de <a href="https://polytech.ulb.be/">l'école polytechnique de Bruxelles</a> en collaboration avec la <a href="https://www.cameskin.org/" target="_blank">CAMESKIN</a> dans le cadre du projet <a href="https://polytech.ulb.be/fr/international/cellule-de-cooperation-au-developpement" target="_blank">CODEPO</a> 2021-2022. </p>
+<p> 
+  Ce document présente le dispositif conçu à Kinshasa par des étudiant de <a href="https://polytech.ulb.be/">l'école polytechnique de Bruxelles</a> en  collaboration avec la <a href="https://www.cameskin.org/" target="_blank">CAMESKIN</a> dans le cadre du projet <a href="https://polytech.ulb.be/fr/international/cellule-de-cooperation-au-developpement" target="_blank">CODEPO</a> 2021-2022. 
+</p>
 <p> Celui-ci vise à améliorer l’utilisation de systèmes de batteries, par la conception d’un appareil de monitoring de l’énergie. Il s’agit d’un projet pilote qui pourra être généralisé à des systèmes électriques situés en milieu rural où l’accès à un dépannage serait long, difficile voire coûteux.
-
+</p>
+<p>
+Le dispositif permet de mesurer un pack de batteries par le biais de 6 mesures de tension et un capteur de courant. Le dispositif permet également d'estimer le pourcentage restant de celui-ci en utilisant le filtre de Kalman dévelopé dans <a href="https://www.researchgate.net/publication/332685740_Adaptive_Dual_Extended_Kalman_Filter_Based_on_Variational_Bayesian_Approximation_for_Joint_Estimation_of_Lithium-Ion_Battery_State_of_Charge_and_Model_Parameters"> cet article </a>. Pour ce faire, le pack de batteries est modélisé par un circuit équivalent, dont les paramètres sont estimés à l'aide de tests <a href="https://www.researchgate.net/figure/Hybrid-Pulse-Power-Characterization-HPPC-test-profile_fig2_235602059">HPPC</a>, et de scripts Matlab disponibles sur ce git. <br>
+</p>
+  
 <h1> Aperçu général </h1>
 <img src="informations/images/CablageDispositifPackEntier.png" width="400" align="right">
 <h2> Extérieur du dispositif </h2>
-Le dispositif permet de monitorer un pack de batterie relié à des panneaux solaires. Pour ce faire, il possède les caractéristiques suivantes :
+Le dispositif permet de monitorer un pack de batteries relié à des panneaux solaires. Pour ce faire, il possède les caractéristiques suivantes :
 <ul>
   <li> <b>7 entrées de mesures de tensions</b>  <br>
     &#x2192; cela permet de monitorer jusqu'à 6 sous-packs de batteries + 1 entrée pour mesurer la tension aux bornes des panneaux solaires.  </li>
