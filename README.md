@@ -35,7 +35,7 @@ Le dispositif permet de monitorer un pack de batterie relié à des panneaux sol
 </ul>
 <br>
 
-<img src="informations/images/PROTO_FINAL_SCHEMA.png" width="400" align="left">
+<img src="informations/images/schemaCablage.png" width="400" align="left">
 <h2> Intérieur du dispositif </h2>
 Le dispositif utilise également le matériel suivant :
 <ul> 
