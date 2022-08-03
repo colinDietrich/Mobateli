@@ -4,7 +4,7 @@
 <p> Celui-ci vise à améliorer l’utilisation de systèmes de batteries, par la conception d’un appareil de monitoring de l’énergie. Il s’agit d’un projet pilote qui pourra être généralisé à des systèmes électriques situés en milieu rural où l’accès à un dépannage serait long, difficile voire coûteux.
 
 <h1> Aperçu général </h1>
-<img src="CablageDispositifPackEntier.png" width="400" align="right">
+<img src="informations/images/CablageDispositifPackEntier.png" width="400" align="right">
 Le dispositif permet de monitorer un pack de batterie relié à des panneaux solaires. Pour ce faire, il possède les caractéristiques suivantes :
 <ul>
   <li> <b>7 entrées de mesures de tensions</b>  <br>
