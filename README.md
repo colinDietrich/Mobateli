@@ -33,6 +33,7 @@ Le dispositif permet de monitorer un pack de batterie relié à des panneaux sol
     &#x2192; cela permet de faciliter l'expérience utilisateur et de pouvoir visualiser les donées mesurées par le dispositif en temps réel. 
   </li>
 </ul>
+<br>
 
 <img src="informations/images/PROTO_FINAL_SCHEMA.png" width="400" align="left">
 <h2> Intérieur du dispositif </h2>
