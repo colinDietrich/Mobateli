@@ -5,12 +5,13 @@
 
 <h1> Aperçu général </h1>
 <img src="informations/images/CablageDispositifPackEntier.png" width="400" align="right">
+<h2> Extérieur du dispositif </h2>
 Le dispositif permet de monitorer un pack de batterie relié à des panneaux solaires. Pour ce faire, il possède les caractéristiques suivantes :
 <ul>
   <li> <b>7 entrées de mesures de tensions</b>  <br>
-    &#x2192; cela permet de monitorer jusqu'à 6 sous-packs de batteries (<i>Bat1</i> à <i>Bat6</i>) en mesurant leurs tensions respectives + 1 entrée pour mesurer la tension aux bornes des panneaux solaires.  </li>
+    &#x2192; cela permet de monitorer jusqu'à 6 sous-packs de batteries + 1 entrée pour mesurer la tension aux bornes des panneaux solaires.  </li>
   <li> <b>2 capteurs de courant </b> <br>
-    &#x2192; cela permet de mesurer d'une part le courant entrant dans l'ensemble du battery pack, et d'autre part le courant sortant des panneaux solaires. </li>
+    &#x2192; cela permet de mesurer le courant entrant dans l'ensemble du battery pack et le courant sortant des panneaux solaires. </li>
   <li> <b>6 capteurs de températures </b> <br>
     &#x2192; cela permet de mesurer les températures de chacun des sous-packs de batteries (<i>Th1</i> à <i>Tht6</i>).
   </li>
@@ -32,3 +33,13 @@ Le dispositif permet de monitorer un pack de batterie relié à des panneaux sol
     &#x2192; cela permet de faciliter l'expérience utilisateur et de pouvoir visualiser les donées mesurées par le dispositif en temps réel. 
   </li>
 </ul>
+
+<img src="informations/images/PROTO_FINAL_SCHEMA.png" width="400" align="right">
+<h2> Intérieur du dispositif </h2>
+Le dispositif utilise également le matériel suivant :
+<li> 
+  <ul> Arduino Due </ul>
+  <ul> Ecran LCD + boutons </ul>
+  <ul>Résistances + diodes + condensateurs + diodes + thermistances </ul>
+</li>
+
