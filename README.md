@@ -34,12 +34,16 @@ Le dispositif permet de monitorer un pack de batterie relié à des panneaux sol
   </li>
 </ul>
 
-<img src="informations/images/PROTO_FINAL_SCHEMA.png" width="400" align="right">
+<img src="informations/images/PROTO_FINAL_SCHEMA.png" width="400" align="left">
 <h2> Intérieur du dispositif </h2>
 Le dispositif utilise également le matériel suivant :
-<li> 
-  <ul> Arduino Due </ul>
-  <ul> Ecran LCD + boutons </ul>
-  <ul>Résistances + diodes + condensateurs + diodes + thermistances </ul>
-</li>
+<ul> 
+  <li> Arduino Due </li>
+  <li> Ecran LCD + boutons </li>
+  <li> Résistances + diodes + condensateurs + diodes + thermistances + multiplexeurs + relay </li>
+  <li> Capteurs de courant à effet Hall </li>
+  <li> Thingstream click </li>
+  <li> Régulateur de tension </li>
+  <li> Lecteur de carte micro-SD </li>
+</ul>
 
