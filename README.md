@@ -18,9 +18,9 @@ Le microcontrôleur utilisé dans le cadre de ce dispositif est une carte Arduin
 Le dispositif permet de monitorer un pack de batteries relié à des panneaux solaires. Pour ce faire, il possède les éléments suivantes :
 <ul>
   <li> <b>7 entrées de mesures de tensions</b>  <br>
-    &#x2192; cela permet de monitorer jusqu'à 6 sous-packs de batteries + 1 entrée pour mesurer la tension aux bornes des panneaux solaires.  </li>
+    &#x2192; cela permet de monitorer jusqu'à 6 sous-packs de batteries (<i>BAT1</i> à <i>BAT6</i>) + 1 entrée pour mesurer la tension aux bornes des panneaux solaires (<i>SP</i>).  </li>
   <li> <b>2 capteurs de courant </b> <br>
-    &#x2192; cela permet de mesurer le courant entrant dans l'ensemble du battery pack et le courant sortant des panneaux solaires. </li>
+    &#x2192; cela permet de mesurer le courant entrant dans l'ensemble du battery pack (capteur <i>20A</i>) et le courant sortant des panneaux solaires (capteur <i>100A</i>). </li>
   <li> <b>6 capteurs de températures </b> <br>
     &#x2192; cela permet de mesurer les températures de chacun des sous-packs de batteries (<i>Th1</i> à <i>Th6</i>).
   </li>
