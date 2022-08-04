@@ -50,7 +50,9 @@ Le dispositif permet de monitorer un pack de batteries relié à des panneaux so
 <ul> 
   <li> Arduino DUE </li>
   <li> Écran LCD + boutons </li>
-  <li> Résistances + diodes + condensateurs + diodes + thermistances + multiplexeurs + relay </li>
+  <li> Multiplexeurs </li>
+  <li> Relay </li>
+  <li> Résistances + potentiomètres + diodes + condensateurs + thermistances </li>
   <li> Capteurs de courant à effet Hall </li>
   <li> Thingstream click </li>
   <li> Régulateur de tension </li>
