@@ -9,13 +9,13 @@
 Le projet consiste à développer un dispositif permettant de monitorer un pack de batteries, ainsi qu'un exécutable pouvant être lancé sur un ordinateur afin de pouvoir visualiser les informations récoltées par le dispositif à distance. <br>
 Le pourcentage restant des batteries est estimé en utilisant le filtre de Kalman développé dans <a href="https://www.researchgate.net/publication/332685740_Adaptive_Dual_Extended_Kalman_Filter_Based_on_Variational_Bayesian_Approximation_for_Joint_Estimation_of_Lithium-Ion_Battery_State_of_Charge_and_Model_Parameters"> l'article suivant </a>. Pour ce faire, le pack de batteries est modélisé par un circuit équivalent, dont les paramètres sont estimés à l'aide d'un test <a href="https://www.researchgate.net/figure/Hybrid-Pulse-Power-Characterization-HPPC-test-profile_fig2_235602059">HPPC</a>, et de scripts MATLAB disponibles sur ce git. <br>
 Des scripts python permettent également de monitorer les panneaux solaires connectés au pack de batteries, en comparant la puissance délivrée (mesurée par le dispositif) à la puissance théorique calculée à partir des données météorologiues locales. <br>
-Le dispositif à été réalisé sur une arduino Due, mais devrait pouvoir être façilement adapté à d'autres micôcontrolleurs.
+Le microcontrôleur utilisé dans le cadre de ce dispositif est une carte Arduino DUE mais rien n'exclut l'adaption du code sur d'autres microcontrôleurs.
 </p>
   
 <h1> Aperçu général </h1>
 <img src="informations/images/CablageDispositifPackEntier.png" width="400" align="right">
 <h2> Extérieur du dispositif </h2>
-Le dispositif permet de monitorer un pack de batteries relié à des panneaux solaires. Pour ce faire, il possède les caractéristiques suivantes :
+Le dispositif permet de monitorer un pack de batteries relié à des panneaux solaires. Pour ce faire, il possède les éléments suivantes :
 <ul>
   <li> <b>7 entrées de mesures de tensions</b>  <br>
     &#x2192; cela permet de monitorer jusqu'à 6 sous-packs de batteries + 1 entrée pour mesurer la tension aux bornes des panneaux solaires.  </li>
@@ -46,10 +46,10 @@ Le dispositif permet de monitorer un pack de batteries relié à des panneaux so
 
 <img src="informations/images/schemaCablage.png" width="400" align="left">
 <h2> Intérieur du dispositif </h2>
-Le dispositif utilise également le matériel suivant :
+À l'intérieur du dispositif se trouve la carte imprimée (PCB) à laquelle plusieurs éléments y sont connectés :
 <ul> 
-  <li> Arduino Due </li>
-  <li> Ecran LCD + boutons </li>
+  <li> Arduino DUE </li>
+  <li> Écran LCD + boutons </li>
   <li> Résistances + diodes + condensateurs + diodes + thermistances + multiplexeurs + relay </li>
   <li> Capteurs de courant à effet Hall </li>
   <li> Thingstream click </li>
